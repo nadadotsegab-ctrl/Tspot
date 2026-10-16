@@ -1,4 +1,18 @@
-# TSPOT
+# TSPOT — Let’s build it together
+
+**Let’s collaborate to build TSPOT: a free, community-built music app inspired by Spotify.**
+
+The goal is a music companion that anyone can run, customize, and help improve. Designers, developers, testers, and music fans are welcome—whether you’re experienced or just getting started.
+
+## Collaborate with us
+
+Have an idea or want to help? [Open an issue](https://github.com/nadadotsegab-ctrl/REA/issues) to introduce yourself, suggest a feature, or report a bug. Fork the repository and submit a pull request when you’re ready to contribute.
+
+We’d love help with the interface, accessibility, playlists, discovery, tests, documentation, and integrations using officially supported APIs and properly licensed music.
+
+**Free app, permitted playback:** TSPOT is free to run and develop. Spotify-connected features follow Spotify’s developer policies and account requirements; full playback through its Web Playback SDK requires Spotify Premium and app access. TSPOT is an independent project and does not unlock Premium features for free.
+
+## About the app
 
 A custom Spotify-style music web app built with React and Vite. TSPOT includes a responsive home page, curated mixes, track search, a library, liked songs, personal playlists, queue controls, shuffle, repeat, seeking, volume, an expanded player, and three accent colors. Favorites, playlists, and accent preferences persist in browser local storage.
 
