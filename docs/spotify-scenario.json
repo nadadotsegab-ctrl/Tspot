@@ -1,0 +1,6 @@
+{
+  "browser": {"mode": "launch", "executable_path": "/usr/bin/chromium"},
+  "start_url": {"url": "https://open.spotify.com/"},
+  "actions": [{"step_id": "settle", "action": "wait_for_timeout", "duration_ms": 1000}],
+  "capture": {"at_end": ["dom", "accessibility", "url"]}
+}

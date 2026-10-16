@@ -1,0 +1,47 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/usr/bin/chromium"
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:3000"
+  },
+  "actions": [
+    {
+      "step_id": "home-ready",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": ".hero"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "open-mix",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": ".hero-explore"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "playlist-ready",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": ".playlist-hero"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "capture": {
+    "at_end": [
+      "dom",
+      "accessibility",
+      "url"
+    ]
+  }
+}
